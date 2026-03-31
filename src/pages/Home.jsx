@@ -86,10 +86,11 @@ function ProcessScene() {
         ))}
       </div>
 
-      {/* stage counter only */}
+      {/* counter + arrows */}
       <div className="ps-counter-row">
+        <button className="ps-arr-btn" onClick={() => goTo(active - 1)} disabled={active === 0}>‹</button>
         <span className="ps-count">{String(active + 1).padStart(2,'0')} / {String(total).padStart(2,'0')}</span>
-        <span className="ps-hint">Click a card or drag to explore</span>
+        <button className="ps-arr-btn" onClick={() => goTo(active + 1)} disabled={active === total - 1}>›</button>
       </div>
     </div>
   )
