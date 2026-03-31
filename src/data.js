@@ -1,6 +1,6 @@
-// All images from Unsplash (free, hotlink-friendly)
-export const MUSHROOM_IMG = 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80'
-export const ABOUT_IMG    = 'https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=80'
+// Local images hosted in /public/images/
+export const MUSHROOM_IMG = '/images/mushroom-main.jpg'
+export const ABOUT_IMG    = '/images/mushroom-about.jpg'
 
 export const WHATSAPP_NUMBER = '919019417813'
 export const WHATSAPP_MSG    = encodeURIComponent('Hi! I want to order fresh oyster mushrooms from Hima Organic.')
@@ -8,7 +8,7 @@ export const WHATSAPP_MSG    = encodeURIComponent('Hi! I want to order fresh oys
 export const varieties = [
   {
     name: 'White Oyster',
-    img: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80',
+    img: '/images/mushroom-main.jpg',
     desc: 'Delicate, mild flavour with a silky texture. Our most popular variety.',
     retail: 120,
     bulk: 90,
@@ -16,7 +16,7 @@ export const varieties = [
   },
   {
     name: 'Gray Oyster',
-    img: 'https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&q=80',
+    img: '/images/mushroom-gray.jpg',
     desc: 'Earthy, rich umami flavour. Firm texture, great for stir-fries and curries.',
     retail: 110,
     bulk: 85,
@@ -24,7 +24,7 @@ export const varieties = [
   },
   {
     name: 'Light Gray Oyster',
-    img: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&q=80',
+    img: '/images/mushroom-about.jpg',
     desc: 'Soft, tender caps with a subtle flavour. Perfect for soups and light dishes.',
     retail: 110,
     bulk: 85,
@@ -54,13 +54,13 @@ export const growthStages = [
   {
     stage: 4, label: 'Pinning',
     desc: 'Tiny mushroom pins emerge from the bag openings — the first visible sign of clusters forming.',
-    img: 'https://images.unsplash.com/photo-1471193945509-9ad0617afabf?w=600&q=80',
+    img: '/images/mushroom-gray.jpg',
     icon: '📍', color: '#fdf6ee',
   },
   {
     stage: 5, label: 'Full Harvest',
     desc: 'Fan-shaped clusters reach peak size and are hand-picked fresh — packed and dispatched the same day.',
-    img: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80',
+    img: '/images/mushroom-main.jpg',
     icon: '🍄', color: '#eef4ee',
   },
 ]
