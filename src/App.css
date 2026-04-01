@@ -548,7 +548,7 @@ p  { color: var(--text-light); line-height: 1.7; }
 .nav-wa-btn:hover { background: #1db954; transform: translateY(-1px); }
 
 /* ── Hamburger ── */
-.ham { display: none; flex-direction: column; justify-content: center; align-items: center; gap: 5px; width: 40px; height: 40px; background: none; border: 1px solid var(--border); border-radius: 10px; cursor: pointer; transition: background 0.2s; }
+.ham { display: none; flex-direction: column; justify-content: center; align-items: center; gap: 5px; width: 40px; height: 40px; background: none; border: 1px solid var(--border); border-radius: 10px; cursor: pointer; transition: background 0.2s; margin-right: 12px; }
 .ham:hover { background: var(--sage-light); }
 .ham span { display: block; width: 18px; height: 1.5px; background: var(--text); border-radius: 2px; transition: transform 0.28s ease, opacity 0.28s ease; transform-origin: center; }
 .ham--open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
